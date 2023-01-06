@@ -1,0 +1,25 @@
+#userForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#userForm label {
+  margin-top: 10px;
+}
+
+#userForm input[type="text"], #userForm input[type="email"], #userForm select, #userForm input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#userForm input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
